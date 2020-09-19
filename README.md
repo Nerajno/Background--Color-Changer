@@ -16,5 +16,7 @@
 - [ ] One branch per feature build ( feature, production, development).  
 
 ## User Stories - Moonshot 
--[ ] User should be able to enter color names and the background gets changes. 
--[ ] Show the Netlify build badges.
+- [ ] User should be able to enter color names and the background gets changes. 
+- [ ] Show the Netlify build badges.
+
+## Resources
