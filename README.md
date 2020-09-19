@@ -2,7 +2,7 @@
 #Weekendbuilds
 
 ## Screenshot
--[ ] Make me please
+- [ ] Make me please
 
 ## Premise
 - [ ] Write a good reason why I made it and make a video of how it functions (Clear and good Youtube video description). 
