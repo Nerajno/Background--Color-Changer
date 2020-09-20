@@ -1,11 +1,11 @@
-# Background--Color-Changer
+# Background-Color-Changer
 #Weekendbuilds
 
 ## Screenshot
 - [ ] Make me please
 
 ## Premise
-- [ ] Write a good reason why I made it and make a video of how it functions (Clear and good Youtube video description). 
+- [ ] Write a good reason why I made it and make a video of how it functions / along with a wriiten description(Clear and good Youtube video description). 
 
 ## User Stories
 - [ ] User should be able to put in hex color codes - long and have the background change color.
@@ -20,3 +20,9 @@
 - [ ] Show the Netlify build badges.
 
 ## Resources
+- [x] https://css-tricks.com/converting-color-spaces-in-javascript/
+- [x] https://css-tricks.com/snippets/javascript/random-hex-color/
+- [ ] https://www.geeksforgeeks.org/how-to-convert-color-names-to-hexcode-using-javascript/
+- [ ] https://stackoverflow.com/questions/1573053/javascript-function-to-convert-color-names-to-hex-codes/24390910
+- [ ] https://stackoverflow.com/questions/16625618/javascript-change-color-of-text-and-background-to-input-value 
+
