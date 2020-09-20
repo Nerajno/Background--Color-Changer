@@ -9,7 +9,7 @@
 
 ## User Stories
 - [ ] User should be able to put in hex color codes - long and have the background change color.
-- [ ] User shpuld be able to put in hex codes codes - short and have the background color change. 
+- [ ] User should be able to put in hex codes codes - short and have the background color change. 
 - [ ] User should be able to press the button which gives them a random color background.
 - [ ] The page should be mobile compatible.
 - [ ] This should be hosted on github pages and Netlify.
@@ -20,8 +20,8 @@
 - [ ] Show the Netlify build badges.
 
 ## Resources
-- [x] https://css-tricks.com/converting-color-spaces-in-javascript/
-- [x] https://css-tricks.com/snippets/javascript/random-hex-color/
+- [ ] https://css-tricks.com/converting-color-spaces-in-javascript/
+- [ ] https://css-tricks.com/snippets/javascript/random-hex-color/
 - [ ] https://www.geeksforgeeks.org/how-to-convert-color-names-to-hexcode-using-javascript/
 - [ ] https://stackoverflow.com/questions/1573053/javascript-function-to-convert-color-names-to-hex-codes/24390910
 - [ ] https://stackoverflow.com/questions/16625618/javascript-change-color-of-text-and-background-to-input-value 
