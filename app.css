@@ -7,6 +7,7 @@ h1{
     margin-top: 7%;
 }
 section{
+    font-family: inherit;
     max-width: 60vw;
     margin:  0 auto;
     margin-top: 15%;
