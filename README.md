@@ -26,3 +26,7 @@
 - [ ] https://stackoverflow.com/questions/1573053/javascript-function-to-convert-color-names-to-hex-codes/24390910
 - [ ] https://stackoverflow.com/questions/16625618/javascript-change-color-of-text-and-background-to-input-value 
 
+## AOB
+When you actually finished it and if the series should be renamed
+
+
