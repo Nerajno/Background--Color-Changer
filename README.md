@@ -10,7 +10,7 @@
 ## User Stories
 - [ ] User should be able to put in hex color codes - long and have the background change color.
 - [ ] User should be able to put in hex codes codes - short and have the background color change. 
-- [ ] User should be able to press the button which gives them a random color background.
+- [x] User should be able to press the button which gives them a random color background.
 - [ ] The page should be mobile compatible.
 - [ ] This should be hosted on github pages and Netlify.
 - [ ] One branch per feature build ( feature, production, development).  
@@ -27,6 +27,6 @@
 - [ ] https://stackoverflow.com/questions/16625618/javascript-change-color-of-text-and-background-to-input-value 
 
 ## AOB
-When you actually finished it and if the series should be renamed
+When you actually finished it and if the series should be renamed.
 
 
