@@ -1,36 +1,31 @@
 // random color genBtn
- const rndmClrGen = async() => {
-     const randomColor = Math.random().toString(16).slice(2,8);
-     document.body.style.backgroundColor = "#"+randomColor;
-     const colorUrl = "https://www.thecolorapi.com/id?hex="+randomColor+"&format=svg";
-     try {
-         const response = await fetch(colorUrl);
-         const body = await response.text();
-         color.innerHTML = body;
-         colorName.innerHTML = "#"+randomColor;
-     } catch (error) {
-         console.log(error);
-     } 
- }; 
- 
- let rndnColor = rndmClrGen();
+const rndmClrGen = async () => {
 
- //got help from => https://css-tricks.com/snippets/javascript/random-hex-color/
+  const randomColor = Math.random().toString(16).slice(2, 8);
+  document.body.style.backgroundColor = "#" + randomColor;
+  const colorUrl = "https://www.thecolorapi.com/id?hex=" + randomColor + "&format=svg";
+  try {
+    const response = await fetch(colorUrl);
+    const body = await response.text();
+    color.innerHTML = body;
+    colorName.innerHTML = "#" + randomColor;
+  } catch (error) {
+    console.log(error);
+  }
 
- randomColorGen.addEventListener("click", rndmClrGen);
- 
-// need to prevent random clicks to get randon color
- //  randomColorGen.addEventListener("click", rndmClrGen(){
-// 	// If the clicked element doesn't have the right selector, bail
-//     if (e.target.matches(".randomColorGen"));
-//      return;
+};
 
-// 	// Don't follow the link
-// 	e.preventDefault();
+let rndnColor = rndmClrGen();
 
-// 	// Log the clicked element in the console
-// 	console.log(e.target);
+//got help from => https://css-tricks.com/snippets/javascript/random-hex-color/
 
-// }, false);
+randomColorGen.addEventListener("click", rndmClrGen);
 
-//color finder
+
+//TODO ~ Get value of input text
+//     ~ Fix the function or make a new function that has two different
+//       criteria and run either the random function or query the input.
+//  const textColorInput = document.getElementById("colorInput").value;
+//console.log(textColorInput);
+
+
