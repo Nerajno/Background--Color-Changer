@@ -1,5 +1,6 @@
 // random color genBtn
 const rndmClrGen = async () => {
+  
   const randomColor = Math.random().toString(16).slice(2, 8);
   document.body.style.backgroundColor = "#" + randomColor;
   const colorUrl =
@@ -7,6 +8,7 @@ const rndmClrGen = async () => {
   try {
     const response = await fetch(colorUrl);
     const body = await response.text();
+    //console.log(body);
     color.innerHTML = body;
     colorName.innerHTML = "#" + randomColor;
   } catch (error) {
@@ -14,19 +16,35 @@ const rndmClrGen = async () => {
   }
 };
 
-let rndnColor = rndmClrGen();
+
 
 //got help from => https://css-tricks.com/snippets/javascript/random-hex-color/
 
+
 randomColorGen.addEventListener("click", rndmClrGen);
+
+let textBoxtSubmit = document.getElementById("inputSubmit");
+let textBoxtSubmitValue = document.getElementById("colorInput").attributes.value;
+inputSubmit.addEventListener("click", (e) => {
+  console.log(textBoxtSubmitValue, typeof textBoxtSubmitValue);
+});
 
 //TODO ~ Get value of input text
 //     ~ Fix the function or make a new function that has two different
 //       criteria and run either the random function or query the input.
 //  const textColorInput = document.getElementById("colorInput").value;
 //console.log(textColorInput);
-let searchInput = document.querySelector("#colorSearcher > form > input[type=submit]:nth-child(2)");
- 
+// let searchInput = document.querySelector("#colorSearcher > form > input[type=submit]:nth-child(2)").value;
+// console.log(searchInput);
+//  inputOptions(params) {
+//   if(params =){
+
+//   }else if(){
+  
+//   }else{
+//    console.log("this is broken !!!");   
+//   }  
+// }
 
 // if submit btn clicked 
 //           run 1 function
@@ -34,3 +52,4 @@ let searchInput = document.querySelector("#colorSearcher > form > input[type=sub
 //      do other thing
 // else
 //    log this has issue
+
