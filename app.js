@@ -1,4 +1,4 @@
-// random color genBtn
+// random color via the 
 const rndmClrGen = async () => {
   
   const randomColor = Math.random().toString(16).slice(2, 8);
@@ -24,8 +24,10 @@ const rndmClrGen = async () => {
 randomColorGen.addEventListener("click", rndmClrGen);
 
 let textBoxtSubmit = document.getElementById("inputSubmit");
-let textBoxtSubmitValue = document.getElementById("colorInput").attributes.value;
+
 inputSubmit.addEventListener("click", (e) => {
+  let textBoxtSubmitValue = document.getElementById("colorInput").
+  value;
   console.log(textBoxtSubmitValue, typeof textBoxtSubmitValue);
 });
 
