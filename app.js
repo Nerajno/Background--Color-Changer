@@ -1,4 +1,4 @@
-// random color via the 
+// random color via the btn function
 const rndmClrGen = async () => {
   
   const randomColor = Math.random().toString(16).slice(2, 8);
@@ -8,7 +8,6 @@ const rndmClrGen = async () => {
   try {
     const response = await fetch(colorUrl);
     const body = await response.text();
-    //console.log(body);
     color.innerHTML = body;
     colorName.innerHTML = "#" + randomColor;
   } catch (error) {
@@ -16,20 +15,32 @@ const rndmClrGen = async () => {
   }
 };
 
+// Input color button function
+const colorInputSearch = async () => {
+  let textBoxSubmitValue = document.getElementById("colorInput").value;
+  console.log(textBoxSubmitValue);
+  const colorUrl = "https://www.thecolorapi.com/id?name=" + textBoxSubmitValue +"&format=json";
+  console.log(colorUrl);
+  try {
+    const response = await(colorUrl);
+    const body = await response.text();
+    console.log(body);
+    
+  } catch (error) {
+    console.warn(error);
+  }
+}
 
-
-//got help from => https://css-tricks.com/snippets/javascript/random-hex-color/
 
 
 randomColorGen.addEventListener("click", rndmClrGen);
 
-let textBoxtSubmit = document.getElementById("inputSubmit");
+// let textBoxtSubmit = document.getElementById("inputSubmit");
 
-inputSubmit.addEventListener("click", (e) => {
-  let textBoxtSubmitValue = document.getElementById("colorInput").
-  value;
-  console.log(textBoxtSubmitValue, typeof textBoxtSubmitValue);
-});
+ let colorSearch = inputSubmit.addEventListener("click", colorInputSearch);
+
+
+
 
 //TODO ~ Get value of input text
 //     ~ Fix the function or make a new function that has two different
