@@ -5,14 +5,14 @@
 - [ ] Make me please
 
 ## Premise
-- [ ] Write a good reason why I made it and make a video of how it functions / along with a wriiten description(Clear and good Youtube video description). 
+Made this to change the background color or randomly do so via the button.
 
 ## User Stories 
 - [x] User should be able to press the button which gives them a random color background.
-- [ ] The page should be mobile compatible.
+- [x] The page should be mobile compatible.
 - [ ] This should be hosted on github pages and deploy on Netlify.
-- [ ] One branch per feature build ( feature, production, development).  
-- [ ] User should be able to enter color names and the background gets changes. 
+- [?] One branch per feature build ( feature, production, development).  
+- [x] User should be able to enter color names and the background gets changes. 
 
 ## User Stories - Moonshot 
 - [ ] Show the Netlify build badges.
