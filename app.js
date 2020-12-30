@@ -33,36 +33,20 @@ const colorInputSearch = async () => {
 
 
 
+//Random color button
 randomColorGen.addEventListener("click", rndmClrGen);
 
-// let textBoxtSubmit = document.getElementById("inputSubmit");
+//Input submission btn
+inputSubmit.addEventListener("click", (e) => {
+  e.preventDefault();
+  let textBoxtSubmitValue = document.getElementById("colorInput").value
+  document.body.style.backgroundColor = textBoxtSubmitValue;
+});
 
- let colorSearch = inputSubmit.addEventListener("click", colorInputSearch);
 
-
-
-
-//TODO ~ Get value of input text
-//     ~ Fix the function or make a new function that has two different
-//       criteria and run either the random function or query the input.
-//  const textColorInput = document.getElementById("colorInput").value;
-//console.log(textColorInput);
-// let searchInput = document.querySelector("#colorSearcher > form > input[type=submit]:nth-child(2)").value;
-// console.log(searchInput);
-//  inputOptions(params) {
-//   if(params =){
-
-//   }else if(){
-  
-//   }else{
-//    console.log("this is broken !!!");   
-//   }  
-// }
-
-// if submit btn clicked 
-//           run 1 function
-// else if random btn clicked 
-//      do other thing
-// else
-//    log this has issue
-
+//Reset color Background
+resetBackGroundColor.addEventListener("click", (e) =>{
+   e.preventDefault();
+   document.body.style.backgroundColor = "aliceblue";
+   $('#colorForm').trigger("reset");
+}); 
