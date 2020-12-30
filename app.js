@@ -15,15 +15,15 @@ const rndmClrGen = async () => {
   }
 };
 
-// Input color button function
+// Input color button function to fetch a color from an api
 const colorInputSearch = async () => {
   let textBoxSubmitValue = document.getElementById("colorInput").value;
   console.log(textBoxSubmitValue);
-  const colorUrl = "https://www.thecolorapi.com/id?name=" + textBoxSubmitValue +"&format=json";
+  const colorUrl = "https://api.color.pizza/v1/names/"+textBoxSubmitValue;
   console.log(colorUrl);
   try {
     const response = await(colorUrl);
-    const body = await response.text();
+    const body = await response.json();
     console.log(body);
     
   } catch (error) {
