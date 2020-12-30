@@ -5,14 +5,14 @@
 - [ ] Make me please
 
 ## Premise
-- [ ] Write a good reason why I made it and make a video of how it functions / along with a wriiten description(Clear and good Youtube video description). 
+Made this to change the background color or randomly do so via the button.
 
 ## User Stories 
 - [x] User should be able to press the button which gives them a random color background.
-- [ ] The page should be mobile compatible.
-- [ ] This should be hosted on github pages and Netlify.
-- [ ] One branch per feature build ( feature, production, development).  
-- [ ] User should be able to enter color names and the background gets changes. 
+- [x] The page should be mobile compatible.
+- [ ] This should be hosted on github pages and deploy on Netlify.
+- [?] One branch per feature build ( feature, production, development).  
+- [x] User should be able to enter color names and the background gets changes. 
 
 ## User Stories - Moonshot 
 - [ ] Show the Netlify build badges.
@@ -26,7 +26,8 @@
 - [ ] https://stackoverflow.com/questions/1573053/javascript-function-to-convert-color-names-to-hex-codes/24390910
 - [ ] https://stackoverflow.com/questions/16625618/javascript-change-color-of-text-and-background-to-input-value 
 
+
 ## AOB
-When you actually finished it and if the series should be renamed.
+When its actually finished it and if so  rename the series.
 
 
