@@ -4,32 +4,34 @@ const rndmClrGen = async () => {
   const randomColor = Math.random().toString(16).slice(2, 8);
   document.body.style.backgroundColor = "#" + randomColor;
   const colorUrl =
-    "https://www.thecolorapi.com/id?hex=" + randomColor + "&format=svg";
+    "https://www.thecolorapi.com/id?hex=" + randomColor + "&format=json";
   try {
     const response = await fetch(colorUrl);
     const body = await response.text();
-    color.innerHTML = body;
-    colorName.innerHTML = "#" + randomColor;
+    let parseBody = JSON.parse(body);
+    //console.log(parseBody ,parseBody.name.value);
+    color.innerHTML = "The color name is "+ parseBody.name.value+".";
+    colorName.innerHTML = "The color hex code  is #" + randomColor +".";
   } catch (error) {
     console.log(error);
   }
 };
 
 // Input color button function
-const colorInputSearch = async () => {
-  let textBoxSubmitValue = document.getElementById("colorInput").value;
-  console.log(textBoxSubmitValue);
-  const colorUrl = "https://www.thecolorapi.com/id?name=" + textBoxSubmitValue +"&format=json";
-  console.log(colorUrl);
-  try {
-    const response = await(colorUrl);
-    const body = await response.text();
-    console.log(body);
+// const colorInputSearch = async () => {
+//   let textBoxSubmitValue = document.getElementById("colorInput").value;
+//   console.log(textBoxSubmitValue);
+//   const colorUrl = "https://www.thecolorapi.com/id?name=" + textBoxSubmitValue +"&format=json";
+//   //console.log(colorUrl);
+//   try {
+//     const response = await(colorUrl);
+//     const body = await response.text();
+//     console.log(body);
     
-  } catch (error) {
-    console.warn(error);
-  }
-}
+//   } catch (error) {
+//     console.warn(error);
+//   }
+// }
 
 
 
@@ -47,6 +49,6 @@ inputSubmit.addEventListener("click", (e) => {
 //Reset color Background
 resetBackGroundColor.addEventListener("click", (e) =>{
    e.preventDefault();
-   document.body.style.backgroundColor = "aliceblue";
+   window.location.reload();
    $('#colorForm').trigger("reset");
 }); 
