@@ -14,10 +14,16 @@ Made this to change the background color or randomly do so via the button.
 - [?] One branch per feature build ( feature, production, development).  
 - [x] User should be able to enter color names and the background gets changes. 
 
+## Todo 
+- [ ] Make text to fit input content in text box.
+- [ ] Inverse the color of the font for the color code and the hex code.  
+
+
 ## User Stories - Moonshot 
 - [ ] Show the Netlify build badges.
 - [ ] User should be able to put in hex color codes - long and have the background change color.
 - [ ] User should be able to put in hex codes codes - short and have the background color change.
+
 
 ## Resources
 - [ ] https://css-tricks.com/converting-color-spaces-in-javascript/
