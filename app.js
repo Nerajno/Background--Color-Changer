@@ -17,23 +17,6 @@ const rndmClrGen = async () => {
   }
 };
 
-// Input color button function
-// const colorInputSearch = async () => {
-//   let textBoxSubmitValue = document.getElementById("colorInput").value;
-//   console.log(textBoxSubmitValue);
-//   const colorUrl = "https://www.thecolorapi.com/id?name=" + textBoxSubmitValue +"&format=json";
-//   //console.log(colorUrl);
-//   try {
-//     const response = await(colorUrl);
-//     const body = await response.text();
-//     console.log(body);
-    
-//   } catch (error) {
-//     console.warn(error);
-//   }
-// }
-
-
 
 //Random color button
 randomColorGen.addEventListener("click", rndmClrGen);
@@ -52,3 +35,7 @@ resetBackGroundColor.addEventListener("click", (e) =>{
    window.location.reload();
    $('#colorForm').trigger("reset");
 }); 
+
+
+//Get color via input form
+ 

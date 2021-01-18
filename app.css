@@ -31,7 +31,9 @@ color{
     width: 200; 
 }
 
-
+#colorInput{
+  width: auto;
+}
     /* To Do */
     /* ~ center the text in the svg */
 
