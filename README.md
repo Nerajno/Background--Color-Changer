@@ -1,8 +1,12 @@
 # Background-Color-Changer
-#Weekendbuilds
+
 
 ## Screenshot
-- [ ] Make me please
+![Screenshot of BackgroundColor Changer]()
+
+
+## Current Netlify Status
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9684855d-4e61-49f1-b950-7c21b4e5441a/deploy-status)](https://app.netlify.com/sites/bkgrndcolrchanger/deploys)
 
 ## Premise
 Made this to change the background color or randomly do so via the button.
