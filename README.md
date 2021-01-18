@@ -10,22 +10,19 @@
 Link to the project => https://bkgrndcolrchanger.netlify.app
 
 ## Premise
-Made this to change the background color or randomly do so via the button.
-
+Made this to understand how a randomly generated background was created. 
 ## User Stories 
 - [x] User should be able to press the button which gives them a random color background.
 - [x] The page should be mobile compatible.
-- [ ] This should be hosted on github pages and deploy on Netlify.
-- [?] One branch per feature build ( feature, production, development).  
+- [x] This should be hosted on github pages and deploy on Netlify.
 - [x] User should be able to enter color names and the background gets changes. 
 
 ## Todo 
 - [ ] Make text to fit input content in text box.
-- [ ] Inverse the color of the font for the color code and the hex code.  
 
 
 ## User Stories - Moonshot 
-- [ ] Show the Netlify build badges.
+- [x] Show the Netlify build badges.
 - [ ] User should be able to put in hex codes codes (short and long) and have the background color change.
 
 
